@@ -1,0 +1,307 @@
+.left_side_mobility{
+
+}
+.text_align_bg_cloud{
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: 500;
+}
+.mrg_0px_h3{
+    margin: 0px;
+}
+.mrg_bot_5per{
+    margin-bottom: 5%;
+}
+.mrg_top_3per{
+    margin-top: 3%;
+}
+.mrg_top_8per{
+    margin-top: 8%;
+}
+/* IOT css start */
+.iot_bg_top{
+
+background-image: linear-gradient(to bottom, rgba(56, 56, 60, 0.52), rgba(8, 8, 8, 0.73)), 
+url('../img_new/our_solution/iot.jpg');
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.mrg_head_iot_tag{
+    margin: 13%;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px
+}
+.txt_iot1{
+    padding: 2% 10% 0% 10%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px
+}
+.txt_iot2{
+    padding: 2% 10% 0% 10%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px
+}
+.head_txt_iot1{
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+    color: #4e4e4e
+}
+.head_txt_mobi1{
+    padding: 2% 10% 0% 10%;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: 600;
+
+}
+.grid_txt_head_iot{
+    font-size: 17px;
+    text-align: left;
+    margin: 0% 0% 4% 0%;
+    color: #4e4e4e;
+    font-weight: 550
+}
+.grid_txt_p_iot{
+    font-size: 16px;
+    text-align: left;
+    color: #787878;
+    list-style-type: square;
+}
+
+/* devops css started */
+.devops_bg_top{
+background-image: url(../img_new/our_solution/devops.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.inner_box_shadow_bottom_devops{
+    background-color: #fff;
+    padding: 4%;
+    box-shadow: 5px 4px 13px 5px #9894942b;
+    /* height: 220px; */
+    border-left: 1px solid #1B3DE9;
+    border-width: 2px;
+    
+ }
+ .inner_box_shadow_ptag_bottom_devops{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+ }
+ .height_1stbox{
+    height: 181px;
+ }
+ .height_3stbox{
+    height: 273px;
+ }
+ .head_txt_devops1{
+    padding: 2% 10% 0% 10%;
+    text-align: center;
+    color: #4e4e4e
+}
+.head_txt_devops2{
+    padding: 2% 10% 0% 10%;
+    text-align: left;
+    color: #4e4e4e;
+    font-size: 23px;
+}
+.txt_devops2{
+    padding: 0% 10% 0% 10%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.txt_devops1{
+    padding: 2% 10% 0% 10%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px
+}
+.ol_devops{
+    padding: 1% 10% 0% 16%;
+}
+.li_devops{
+    padding: 1%;
+    font-size: 14px
+}
+
+/* mobility css  */
+.mobility_bg_top{
+    background-image: url(../img_new/our_solution/mobility.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 450px;
+    }
+    .inner_box_shadow_bottom_mobility{
+        background-color: #fff;
+        padding: 4%;
+        box-shadow: 5px 4px 13px 5px #98949459;
+        /* height: 220px; */
+        border-left: 1px solid #1B3DE9;
+        border-width: 2px;
+        /* height: 133px; */
+     }
+     .inner_box_shadow_bottom_mobility:hover{
+        height: 215px;
+     }
+     /* .inner_box_shadow_bottom_mobility:hover{
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+        z-index: 1;
+        position: absolute;
+        border-right: 1px solid #1B3DE9;
+        border-width: 2px;
+        
+     } */
+     .inner_box_mobi_h6tag{
+        font-weight: 600;
+        font-size: 16px
+     }
+     .inner_mobi_hover:hover{
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+        z-index: 1;
+        position: absolute;
+        /* border-right: 1px solid #1B3DE9; */
+        border-width: 2px;
+        box-shadow: 5px 4px 13px 5px #98949459;
+        padding: 5%
+     }
+     .inner_txt_color{
+         color: transparent;
+     }
+     .inner_txt_color:hover{
+         color: #312e2e;
+         text-align: center;
+         font-size: 10px;
+     }
+     .txt_align_mobi{
+        text-align: center
+     }
+
+     .img_center{
+        margin: 0px auto;
+        display: block;
+     }
+
+     /* cloud css */
+     .cloud_bg_top{
+        background-image: linear-gradient(to bottom, rgba(56, 56, 60, 0.52), rgba(8, 8, 8, 0.73)), 
+        url('../img_new/our_solution/cloud_service.jpg');
+        
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        /* height: 450px; */
+        }
+        .txt_cloud1{
+            padding: 2% 10% 0% 10%;
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+            color: #fff
+        }
+        .cloud_li_txt{
+            margin: 2%;
+        }
+        .img_bor_radi_cloud{
+            border-radius: 3px
+        }
+
+
+
+        /* media query */
+        /* IOT page */
+        @media (min-width: 280px) and (max-width: 767px) {
+            .iot_bg_top{
+                height: 260px;
+            }
+            .mrg_head_iot_tag{
+                margin-top: 38%;
+            }
+            .txt_iot1{
+                font-size: 18px;
+                padding: 5% 3% 7% 6%;
+            }
+            .grid_txt_head_iot{
+                font-size: 17px
+            }
+            /* big data page our_solution */
+                .big_slider_img{
+                    height:260px ;
+                }
+                .ms-header{
+                    position: absolute!important;
+                }
+                .big_slider_hght{
+                    height: 275px!important;
+                }
+                .head_our_solu_ptag{
+                    padding: 3%
+                }
+                .inner_line_height{
+                    line-height: 3;
+                }
+                .inner_line_height2{
+                    line-height: 2!important;
+                }
+                .inner_box_shadow{
+                    margin-bottom: 5%;
+                    height: 100px;
+                }
+                .head_our_solu{
+                    font-weight: 550;
+                    padding: 4%;
+                }
+                .inner_box_shadow_bottom{
+                    margin-bottom: 5%;
+                }
+                .inner_box_shadow_ptag_bottom{
+                    padding: 3%;
+                }
+                .big_data_head_slider{
+                    left: 35%;
+                    top: 20%;
+                }
+                /* cloud page css */
+                .mobile_view_only_cloud{
+                    display: block!important
+                }
+                .web_view_only_cloud{
+                    display: none
+                }
+                /* devops css */
+                .inner_box_shadow_bottom_devops{
+                    margin-bottom: 5%;
+                }
+          }
+          @media (min-width: 768px) and (max-width: 860px) {
+          .inner_box_shadow_bottom{
+              margin: 2%
+          }
+          .mar_2per{
+              margin: 2%;
+          }
+        }
+
+          .mobile_view_only_cloud{
+            display: none
+        }
+        .inner_line_height2{
+            line-height: 3;
+        }

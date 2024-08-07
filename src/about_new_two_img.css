@@ -1,0 +1,292 @@
+.bg_new_two1{
+    /* background-image: url("./img_new/about_phone/right_side_img.jpg"); */
+    background-color: #cccccc;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+.bg_new_two2{
+    /* background-image: url("./img_new/about_phone/left_side_img.jpg"); */
+    background-color: #cccccc;
+    height: 655px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 89%;
+    background-attachment: fixed;
+}
+.about_new_tags{
+   text-align:center;
+    padding-top: 0%;
+    text-transform:none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about_bor_bot_new{
+    content: "";
+    position: relative;
+    width: 90px;
+    height: 2px;
+    background: #0b69af;
+    bottom: 8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+.p_tag_new_about{
+    margin-top: 0%;
+    padding: 3px;
+    /* padding-left: 6%; */
+    /* text-indent: -6%; */
+    line-height: 0;
+    text-align: left;
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    text-align: justify;
+    /* line-height: 0px!important; */
+}
+.p_tag_new_about_lines{
+    padding: 12px;
+    padding-left: 6%;
+    text-indent: -6%;
+}
+/* second row  */
+.p_tag_new_about_lines_second_row{
+    padding: 2%;
+    text-indent: -6%;
+}
+.p_tag_new_about_second_row{
+    margin-top: 5%;
+    padding: 2%;
+    text-indent: -6%;
+}
+.tic_ivcon_img_abouts{
+    width: 4%;
+   
+}
+.hegt_right_left_txts_about{
+    height:350px;
+}
+.tic_ivcon_img_abouts{
+    visibility: hidden;
+}
+/* media mobile responsive */
+@media (min-width:280px) and (max-width: 767px) {
+    .bg_new_two2{
+        width: 100%
+    }
+   .disable_mobile_about_new_us{
+       display: none
+   }
+   .bg_new_two1{
+    /* background-image: url("./img_new/about_phone/left_side_img.jpg"); */
+    background-color: #cccccc;
+    height: 194px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+   
+}
+.bg_new_two2{
+    /* background-image: url("./img_new/about_phone/right_side_img.jpg"); */
+    background-color: #cccccc;
+    height: 194px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+   
+}
+.p_tag_new_about_second_row{
+    margin-left: 5%;
+}
+.p_tag_new_about_lines_second_row{
+    margin-left: 5%;
+}
+.technology_card{
+    position: relative;
+    display: flex!important;
+    margin: 1% 0%!important;
+    width: 100%;
+    flex-wrap: wrap;
+}
+/* .p_tag_new_about{
+        padding: 7px;
+} */
+  }
+  /* media for tablets */
+  @media (min-width:768px) and (max-width: 1024px) {
+    .bg_new_two2{
+        width: 100%
+    }
+   .disable_mobile_about_new_us{
+       display: none
+   }
+   .technology_card{
+    position: relative;
+    display: flex!important;
+    margin: 1% 0%!important;
+    width: 100%;
+    flex-wrap: wrap;
+   }
+   .bg_new_two1{
+    /* background-image: url("./img_new/about_phone/left_side_img.jpg"); */
+    background-color: #cccccc;
+    height: 194px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+   
+}
+.bg_new_two2{
+    /* background-image: url("./img_new/about_phone/right_side_img.jpg"); */
+    background-color: #cccccc;
+    height: 194px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+   
+}
+.p_tag_new_about_second_row{
+    margin-left: 5%;
+}
+.p_tag_new_about_lines_second_row{
+    margin-left: 5%;
+}
+  }
+  @media (min-width:1025px)  {
+    .disable_web_about_new_us{
+        display: none
+    }
+  }
+  /* recreated css */
+  .box_serv{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+  }
+
+  .box_serv_wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom:5rem;
+}
+
+.box_serv_wrap:hover {
+    /* background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%); */
+    background: linear-gradient(135deg,#6394ff 0%,#0a193bb5 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #101f7d;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+.ptag_ser_hom:hover {
+    color:#fff;
+}
+.mbr-section-title3 {
+    text-align: left;
+}
+.mbr-section-title3:hover {
+    color: #fff
+}
+
+
+.mbr-bold {
+    font-weight: 700;
+}
+
+.about_bor_bot_serv{
+    content: "";
+    position: relative;
+    width: 90px;
+    height: 2px;
+    background: #0b69af;
+    bottom: 4px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.about_ser_new_tags{
+    text-align:center;
+      text-transform:none;
+      font-size: 30px;
+      font-weight: 700;
+      /* color: white; */
+    
+ }
+ .mrg_top_recreate{
+    margin-top: 5%;
+ }
+
+    .technology_card {
+
+        position: relative;
+        display: flex;
+        margin: 1% 0 0;
+    }
+    .bg_technology{
+        background-color: #cccccc54;
+        text-align: center;
+    }
+  .fnt_si_tehno{
+    font-size: 6rem;
+    color: #989595;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    /* padding: 0 0%; */
+    width: 100px;
+  }
+  .reactfnt_si_tehno:hover{
+    color: #00d8ff;
+  }
+  .angularfnt_si_tehno:hover{
+    color: #c3002f;
+  }
+  .html5_clr:hover{
+    color:#264de4
+  }
+  .css3_clr:hover{
+      color: #e44d26;
+  }
+  .wordpress_clr:hover{
+    color: #e44d26;
+}
+.java_clr:hover{
+    color:#0871ba
+}
+.nodejs_clr:hover{
+    color:#8cc84b
+}
+.php_clr:hover{
+   color: #858fb9
+}
+.joomla_clr:hover{
+    color:#f58b2f
+}
+.drupal_clr:hover{
+    color:#008ac9
+}
+.marg_all_heading{
+    margin: 2% 0 1%;
+}

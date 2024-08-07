@@ -1,0 +1,203 @@
+.makerow{
+  display: flex;
+}
+.our_service12read {
+  /* float: right; */
+  display: flex;
+  justify-content: right;
+  color: #101f7d;
+  text-decoration: underline;
+  padding: 3px 2%;
+  font-size: 14px;
+}
+.our_assets_head_inner_service{
+    font-size: 30px!important;
+    font-weight: 700;
+    position: relative;
+    text-align: center; 
+    /* margin-top: 1%; */
+  }
+  .our_assets_head_inner_service:after{
+    content: "";
+    position: absolute;
+    width: 23%;
+    height: 2px;
+    background: #0b69af;
+    bottom: -15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  /* for rotate image css */
+  .rotate_img_service_web {
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    /* padding: 5px; */
+    /* width: 85%; */
+
+  }
+  
+  .rotate_img_service_web:hover {
+    box-shadow: 0 0 2px 1px rgba(77, 77, 77, 0.5);
+    transform: scale(0.8);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transition: all .6s ease-in-out;
+   
+  }
+  .rotate_img_main{
+    transform: translate3d(-11%, -25%, 0) scale(1) rotateX(45deg) rotateY(-5deg) rotateZ(25deg);
+    -webkit-transform: translate3d(-11%, -25%, 0) scale(1) rotateX(45deg) rotateY(-5deg) rotateZ(25deg);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-perspective: 2950px;
+    perspective: 2950px;
+  }
+  .empty_rotate_img_service{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16%;
+    flex: 0 0 16%;
+    max-width: 16%;
+    padding: 15px;
+  }
+  .original_img_rotate_sevice{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16%;
+    flex: 0 0 16%;
+    max-width: 16%;
+    padding: 15px;
+  }
+  .row_after_rotate_img_service{
+    width: 122%;
+    margin-top: 15%;
+  }
+
+  /* hover to show text */
+  .original_img_rotate_sevice_new:hover{
+    width: 40%;
+    height: 20%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 11;
+    opacity: 1;
+  }
+/* css card */
+.web_apps_txt_card1{
+/* box-shadow: 0 7px 15px 0 rgba(0,0,0,0.4); */
+transition: 0.3s;
+width: 80%;
+border-radius: 5px;
+display: block;
+margin: 0px auto;
+border:1px solid#ececec;
+/* margin-top: 2%; */
+/* margin-bottom: 4%; */
+}
+
+.web_apps_txt_card1:hover {
+  /* box-shadow: 0 7px 15px 0 rgba(0,0,0,0.4); */
+}
+.explain_web_head1{
+  padding: 2%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.bor_explai_head_web_title{
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  margin-top: 0px;
+  left: 30%;
+}
+
+.bor_explai_head_web_title:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 29%;
+  background-color: #c58e2a;
+  left: calc(51% - 65px);
+}
+.bor_explai_head_web_title:after{
+  content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 8px;
+    width: 8px;
+    background-color: #1e29b5;
+    left: calc(50% - 4px);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.ptag_explain_web_inner{
+  padding: 8px;
+  font-size: 14px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+.ul_list_web_dev_text{
+ 
+  padding: 3%;
+  font-size: 14px;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* float: right;
+  margin-right: 20%; */
+
+}
+/* .final_mr_right_inner_web_dev{
+
+  margin-right: 45%;
+} */
+.txt_center_web_dev_inner{
+  text-align: center;
+  font-weight: 600!important;
+  color: #0b69af!important;
+  margin-bottom: 0px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.pad_inner_li_web_dev{
+  padding: 3px;
+  text-align: justify; 
+  text-align-last: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 34%;
+  text-indent: 16px;
+}
+
+  /* media query */
+  @media (min-width: 280px) and (max-width: 1024px) {
+
+    .txt_center_web_dev_inner{
+      text-align: left;
+    }
+    .row_after_rotate_img_service{
+      width: 100%;
+      margin-top: 17%;
+      /* margin-left: 12%; */
+    }
+    .bor_explai_head_web_title:before{
+      width: 92%;
+    }
+    .media_size_webapps{
+      font-size: 22px
+    }
+    .pad_inner_li_web_dev{
+      margin-left: 0;
+    }
+    .web_apps_txt_card1{
+      width: 100%;
+    }
+  }
+

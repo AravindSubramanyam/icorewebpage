@@ -1,0 +1,607 @@
+.logoone_landing{
+    width: 65%;
+}
+/* for button  */
+button.button7{
+    display :inline-block;
+    padding : 0.7em 1.7em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:1.2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    text-align:center;
+    position:relative;
+    }
+    button.button7:active{
+    box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+.flt_rght{
+    float:right;
+}
+.bg_form_landing{
+    /* background: linear-gradient(to right, #67b4ea, #4f3ec6); */
+    background: linear-gradient(to right, #3a9bdf, #4f3ec6);
+}
+.bg_secondwave{
+    background-color: #8f8f8f;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+.txt_rght{
+    text-align: right;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+.txt_lft{
+    text-align: left;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.pad-2{
+    padding: 2%;
+}
+.clr_white{
+    color: #fff!important;
+}
+/* form right side */
+.form-sec{
+    width:88%; 
+    background:#ccc; 
+    padding:15px;
+    background: #f8f9fa;
+    padding: 15px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 9px;
+    /* box-shadow: 0 0 4px #ccc; */
+}
+.form-control{
+    border: 1px solid #cecece;
+    margin-bottom: 0px;
+    height: 45px;
+    border-radius: 5px;
+}
+.react-tel-input .form-control{
+    border: 1px solid #cecece!important;
+    margin-bottom: 0px!important;
+    height: 45px!important;
+    border-radius: 5px!important;
+}
+.form-group{
+    padding: 2%;
+    width: 100%;
+}
+.dis_flex{
+    display: flex;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ccc8c8;
+}
+/* .cust_wid_double{
+    width: 250px;
+} */
+.btn_form_submit{
+    display: block!important;
+    width: 20%!important;
+    margin: 0px auto!important;
+}
+/* testimonial css */
+.imag_testilogo{
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 50%!important;
+    object-fit: scale-down!important;
+    border: 1px solid #ccc!important;
+}
+#testimonial .img-circle{
+	  display: block;
+      margin: 0 auto;
+	  margin-top:10px;
+	  margin-bottom:10px;
+}
+
+.testimonial-part{
+	margin:50px 0px;
+}
+
+.blockquote-footer{
+	color: #5db4c0;
+}
+
+.comment-box , .comment-box2{
+    color: #FFFFFF;
+    /* background: #5db4c0; */
+    position: relative;
+    max-width: 700px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 0px 70px 2px 70px;
+    margin: 0 auto;
+    border: 1px solid #0e0e0fab;
+    padding: 2%;
+    /* background: #e9e9e970; */
+    box-shadow: 0 1px 46px 0 rgba(229, 227, 227, 0.49);
+}
+
+.comment-box:after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0;
+   /* border-width: 15px 0 15px 15px; */
+   border-color: transparent #5db4c0;
+   right: -15px;
+   top: 45px;
+}
+
+.comment-box2:after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0;
+   border-color: transparent #5db4c0;
+   left: -14px;
+   top: 45px;
+   transform: rotate(180deg);
+}
+
+.comment-box p , .comment-box2 p{
+	padding:30px 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.ion-minus{
+    padding:0px 10px;
+}
+.text-center{
+    text-align: center;
+}
+.pad-1{
+    padding: 1%;
+}
+.header_txt1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.ptag_txt1{
+    font-size: 15px;
+    padding-top: 14px;
+    line-height: 1.6!important;
+}
+.mt-2{
+    margin-top: 2%;
+}
+
+/* for technology */
+.bg_technology{
+    background-color: transparent;
+    text-align: center;
+}
+.fnt_si_tehno{
+font-size: 6rem;
+margin: 0 auto;
+display: block;
+text-align: center;
+/* padding: 0 0%; */
+width: 125px;
+}
+.fnt_si_tehno:hover{
+color: #989595;
+}
+.reactfnt_si_tehno{
+color: #00d8ff;
+}
+.angularfnt_si_tehno{
+color: #c3002f;
+}
+.html5_clr{
+color:#264de4
+}
+.css3_clr{
+  color: #e44d26;
+}
+.wordpress_clr{
+color: #e44d26;
+}
+.java_clr{
+color:#0871ba
+}
+.nodejs_clr{
+color:#8cc84b
+}
+.php_clr{
+color: #858fb9
+}
+.joomla_clr{
+color:#f58b2f
+}
+.drupal_clr{
+color:#008ac9
+}
+.marg_all_heading{
+margin: 2% 0 1%;
+}
+.imag_agile{
+    width: 60%;
+    margin: 5%;
+}
+.casestudy_img{
+    width: 71%;
+    display: block;
+    margin: 0px auto;
+}
+.casestydy_boxshadow{
+    border: 1px solid #ccc;
+    box-shadow: 14px 15px 28px 0px #ccc;
+}
+.testimonial_txt{
+    text-align: left;
+    padding: 1% 2%;
+    color: #38479a;
+    font-weight: 700;
+}
+.comment-box>span{
+    float: left;
+    padding: 0 2%;
+    color: #151515!important;
+    font-weight: 700;
+}
+.comment-box>p{
+    text-align: left;
+    padding: 29px 2% 4px!important;
+}
+
+/* card details */
+.card_detailstops{
+    width: 75%;
+    padding-top: 2%;
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0 6px 20px 0px #c1c1c1;
+}
+.card_detailstops .sub_title {
+    margin-top: 50%;
+    margin-bottom: 3%;
+}
+.year_txtbg{
+    background: url(https://simublade.com/assets/img/award/bg-award.png) top center no-repeat;
+    min-height: 7em;
+    border-radius: 0 0 20px 20px;
+}
+.year_txtbg>h1{
+    padding-top: 35px;
+    font-size: 53px;
+    color: #363636;
+}
+.img_achived{
+    position: absolute;
+    z-index: 1;
+    top: -15px;
+    width: 50%;
+    left: 25%;
+}
+.wid_65{
+    width: 65%;
+}
+
+
+/* mobile application development css */
+.mob_framecss{
+    left: 30%;
+    width: 280px;
+    height: 542px;
+    z-index: 1;
+    display: block;
+    margin: 0px auto;
+}
+.fnt_si_tehno_mobile{
+    font-size: 6rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    /* padding: 0 0%; */
+    width: 125px;
+    }
+.fnt_si_tehno_mobile>img{
+    border-radius: 20%;
+    width: 80px;
+}
+.mobilebg_banner_mobile{
+    background-image: url("../img_new/mobile_framenew.png"); /* The image used */
+    /* background-color: #cccccc;  */
+    height: 548px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fisrtdiv_of_image_bg{
+    width: 260px;
+    display: block;
+    margin: 0px auto;
+}
+.video_gif_sizes{
+    max-width: 246px!important;
+    height: 433px;
+    object-fit: cover;
+    /* position: absolute; */
+    margin-top: 47px;
+    margin-left: 6px;
+}
+.mobile_app_card{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 46px 0 rgba(0,0,0,.06);
+    transition: all .3s linear 0s;
+    padding: 20px;
+    margin-bottom: 32px;
+    height: 391px;
+}
+.mobile_app_card:hover {
+    box-shadow: 0 1px 46px 0 rgba(0,0,0,.4);
+}
+.figure_inside_card{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.figure_inside_card>img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+.card_inside_h3{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #444;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    display: block;
+    margin: 0px auto 20px;
+}
+button[disabled], html input[disabled]{
+    cursor: not-allowed;
+}
+.errors_msg_custom{
+    color: red;
+    font-size: 13px;
+}
+.success_form_word{
+    margin: 2% 0 0;
+    text-align: center;
+    display: block;
+    color: green;
+    font-size: 17px;
+}
+/* media query */
+@media (min-width: 200px) and (max-width: 767px) {
+    .dis_flex{
+        display: block
+    }
+    .form-sec{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .btn_form_submit{
+        width: 50%!important;
+    }
+    .react-tel-input .form-control{
+        width: 100%!important;
+    }
+    .card_detailstops{
+        display: block;
+        margin: 0px auto 60px;
+    }
+    .comment-box, .comment-box2,.imag_testilogo{
+        margin-bottom: 20px;
+    }
+    .comd_box_ml{
+        margin-left: 12%;
+    }
+    .comment-box, .comment-box2{
+        border-radius: 5px!important;
+    }
+    .mob_mt_caseeeimg{
+        margin-top: 5%;
+        }
+        .mobile_app_card{
+            height:auto!important
+        }
+        .pad_css_subbutn{
+            margin: 10%;
+        }
+        .fnt_si_tehno_mobile{
+            font-size: 6rem;
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+            padding: 0 3%;
+            width: auto;
+    }  
+    .logoone_landing{
+        width: 100%!important;
+    } 
+    .carousel .slider-wrapper{
+        height: auto!important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1025px) {
+    .form-sec{
+        margin-top: 2%;
+    }
+    .pad_sec{
+        padding: 2% 6%;
+    }
+    .card_detailstops{
+        display: block;
+        margin: 0px auto 60px;
+    }
+    .mob_mt_caseeeimg{
+        margin-top: 5%;
+        }
+        .pad_css_subbutn{
+            margin: 10%;
+        }
+        .logoone_landing{
+            width: 100%!important;
+        }
+        .carousel .slider-wrapper{
+            height: auto!important;
+        }
+  }
+
+  /* slider css */
+  .carousel .slide{
+      background: transparent!important;
+  }
+  .carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+      opacity: 1!important;
+  }
+  .carousel .control-prev.control-arrow:before{
+    border-right: 16px solid #1f2dcb!important;
+  }
+  .carousel .control-next.control-arrow:before{
+    border-left: 16px solid #1f2dcb!important;
+  }
+  .carousel.carousel-slider .control-arrow:hover{
+    background: transparent!important;
+  }
+  .carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before{
+    border-top: 16px solid transparent!important;
+    border-bottom: 16px solid transparent!important;
+  }
+  .carousel .control-dots .dot{
+    background: #1f2dcb!important;
+  }
+  .carousel .control-dots{
+    margin: -20px 0!important;
+  }
+  .carousel .carousel-status{
+    text-shadow: 0px 0px 0px rgba(0,0,0,0)!important;
+    color: #0c0505!important;
+  }
+  .carousel .thumbs-wrapper{
+      display: none;
+  }
+  .dis_center{
+      display:block!important;
+      margin: 0px auto!important;
+  }
+  .padding_case{
+    padding: 0 6%;
+  }
+  @media (min-width: 960px){
+.carousel .control-dots {
+    bottom: 22px!important;
+}   
+}
+.mt_cus_case{
+    margin-bottom: 5%;
+}
+.carousel .slider-wrapper{
+    height: 345px;
+}
+.text_align_just{
+    text-align: justify;
+}
+.tabto_callcss{
+    font-size: 30px;
+    padding: 2%;
+    cursor: pointer;
+    color: #0d41ba;
+}
+/* model css */
+.model_popup_cssc{
+    background: #201e1e6e;
+}
+.p-cusmodel{
+    padding:3% 0;
+}
+.bornone{
+    border: none;
+}
+.pad_css_subbutn{
+    padding: 9px 18px!important;
+    border-radius: 5px!important;
+}
+.p-30per{
+    padding: 30px;
+}
+.fnt_27px{
+    font-size: 27px;
+}
+.wid_200px{
+    width: 200px!important;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .getfree_consult_btn {
+    width:200px;
+    height: 45px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #0d41ba;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .getfree_consult_btn:hover {
+    color: #0d41ba;
+  }
+  .getfree_consult_btn::after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+    border: 2px solid #0d41ba;
+  }
+  
+  .getfree_consult_btn[class^="grow"]::after {
+    transition: all 0.3s ease;
+  }
+  .getfree_consult_btn[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+  }
+  
+  .getfree_consult_btn.grow_spin::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0) rotate(-180deg);
+  }
+  .getfree_consult_btn.grow_spin:hover::after {
+    transform: scale(1, 1) rotate(0deg);
+  }
+  .flt_lft_msg{
+      float: left;
+  }
+  .mr_tech{
+      margin: 1% 0 1%;
+  }

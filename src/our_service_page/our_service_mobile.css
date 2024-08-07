@@ -1,0 +1,150 @@
+.our_mobile_head_inner_service{
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 7%;
+  }
+  .our_mobile_head_inner_service:after{
+    content: "";
+    position: absolute;
+    width: 23%;
+    height: 2px;
+    background: #dc2e2e;
+    bottom: -15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .our_service_mobile_bg{
+    background-image: url('../img_new/our_service_inner/mobile_apps/mobile_bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    box-shadow: inset 0 0 0 2000px rgba(47, 46, 46, 0.69);
+    padding:0% 5%;
+ 
+}
+.pad_col_adjust_service{
+    padding-left: 0px;
+    padding-right: 0px
+}
+.mobile_img_service{
+    width: 78%;
+    margin-left: 10%;
+}
+
+
+/* css card */
+.mobile_apps_txt_card1{
+    /* box-shadow: 0 7px 15px 0 rgba(0,0,0,0.4); */
+    transition: 0.3s;
+    width: 80%;
+    border-radius: 5px;
+    display: block;
+    margin: 0px auto;
+    border:1px solid#ececec;
+    margin-top: 2%;
+    /* margin-bottom: 4%; */
+    }
+    
+    .mobile_apps_txt_card1:hover {
+      /* box-shadow: 0 7px 15px 0 rgba(0,0,0,0.4); */
+    }
+    .explain_mobile_head1{
+      padding: 2% 2%;
+      text-align: center;
+      margin-bottom: 0px;
+      color: #fff
+    }
+    .bor_explai_head_mobile_title{
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      margin-top: 0px;
+      left: 30%;
+      color: #fff
+    }
+    
+    .bor_explai_head_mobile_title:before{
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      width: 29%;
+      background-color: #c58e2a;
+      left: calc(48% - 65px);
+    }
+    .bor_explai_head_mobile_title:after{
+      content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 8px;
+        width: 8px;
+        background-color: #1e29b5;
+        left: calc(50% - 4px);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .ptag_explain_mobile_inner{
+      padding:8px;
+      font-size: 14px;
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: justify;
+      color: #fffafacc!important
+    }
+    .card_extra_ptag_inner2_mobile_inner{
+      /* display: inline;  */
+      padding-left: 10%;
+      font-size: 14px;
+      color: #fff!important;
+      /* font-weight: 700; */
+      /* text-align: center; */
+      line-height: 2;
+    }
+    
+@media (min-width:280px) and (max-width:1024px){
+    .our_service_mobile_bg{
+        min-height: 260px;
+        padding: 5% 5%;
+    }
+    .bor_explai_head_mobile_title:before{
+        width: 100%;
+    }
+    .card_extra_ptag_inner_ecommer2{
+      text-align: center;
+      padding-left: 0;
+    }
+    .explain_mobile_head1:after{
+      bottom: 97%!important;
+      display: none;
+    }
+    .mobile_apps_txt_card1{
+      width: 100%;
+    }
+}
+
+/* recreate css */
+.explain_mobile_head1:after {
+  content: "";
+  position: absolute;
+  width: 23%;
+  height: 2px;
+  background: #0b69af;
+  bottom:93%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.clr_fff{
+  color: #fff!important
+}

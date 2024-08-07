@@ -1,0 +1,425 @@
+.maincontainer{
+    display: flex;
+}
+
+.phone_img_about{
+    width:34%;
+    height: 30%;
+    display: block;
+    margin: 0px auto;
+    margin-top: -77%;
+}
+/* left side icons */
+.icn_about_phone{
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 53px;
+    /* left: 0; */
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 50%;
+    /* background-color: #1abc9c; */
+    background-color: #0b69af;
+    color:#fff;
+    left: auto;
+    right: 0;
+}
+.txt_left_about_phone{
+    /* padding: 50px 0px 0 0; */
+    /* text-align: right; */
+    height: 155px;
+}
+/* right side icons */
+
+.icn_about_phone_right{
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 52px;
+    /* left: 0; */
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 50%;
+    background-color: #0b69af;
+    color:#fff;
+    left: auto;
+    right: 0;
+}
+.txt_left_about_phone_right{
+    /* padding: 50px 0px 0 0; */
+    text-align: left;
+    height: 155px;
+}
+.about_phone_ptag{
+    margin: 8px 0 0;
+    color: #312e2e;
+    font-size: 14px;
+    text-align: inherit;
+}
+.about_phone_headtag{
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #0b69af;
+}
+/* icons hovers */
+ .icon{
+    height:100px;
+    width:100%;
+    text-align:center;
+    padding-top:50px;
+  } 
+  
+  .icons_btn_about_phone_img{
+    display:inline-block;
+    border-radius: 50%;
+    text-align:center;
+    cursor:pointer;
+    font-weight: 100;
+    /* float:left; */
+  }
+  /* .icons_btn_about_phone_img:first-of-type{
+    margin-left:5em;
+  } */
+  .icons_btn_about_phone_img:after{
+    display:inline-block;
+    position:relative;
+      border-radius: 50%; 
+    content:'';
+    box-sizing:content-box;
+    backface-visibility: hidden;
+  }
+  /* .icons_btn_about_phone_img:before{
+    position:relative;
+    display:block;
+    font-family: 'FontAwesome', sans-serif;
+    font-size:2.5rem;
+    z-index :1;
+    
+  }
+   */
+
+  .fontawesome-leaf:after{
+    width: 70px;
+    height: 70px;
+    top: -67px;
+    left: -3px;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+    box-shadow: 0 0 0 2px #fff;
+    opacity: 0;
+    
+  }
+  .fontawesome-leaf:hover{
+    /* background:#2154cf; */
+    background-color: #101f7d;
+    transform:scale(.95);
+ }
+ .fontawesome-leaf:hover:after{
+    animation:ripple 1.3s ease-out 75ms;
+    animation-iteration-count: 20;
+    -webkit-animation-iteration-count: 20;
+  }
+  .fontawesome-gift:hover:before{
+    transform:scale(1.3);
+  }
+
+  @keyframes spin{
+    from{
+      transform:rotate(0deg);  
+    }
+    to{
+      transform:rotate(360deg);
+    }
+  }
+  @keyframes slide{
+      49% {
+          transform: translate(-100%);
+      }
+      50% {
+          opacity: 0;
+          transform: translate(100%);
+      }
+      51% {
+          opacity: 1;
+      }
+  }
+  @keyframes ripple{
+    0% {
+          opacity: 0.3;
+      }
+      40% {
+          opacity: 0.5;
+          box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #52292A, 0 0 0 10px rgba(255,255,255,0.5);
+      }
+      100% {
+          box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #52292A, 0 0 0 10px rgba(255,255,255,0.5);
+          transform: scale(1.2);
+          opacity: 0;
+      }
+  }  
+  @keyframes ani_about{
+    0% {
+          opacity: 0.3;
+      }
+      40% {
+          opacity: 0.5;
+          /* box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #52292A, 0 0 0 10px rgba(255,255,255,0.5); */
+      }
+      100% {
+          box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #52292A, 0 0 0 10px rgba(255,255,255,0.5);
+          transform: scale(1.2);
+          opacity: 0;
+      }
+  }  
+  /* for img bg animation */
+  .bg_back_animation_about{
+        /* width: 70%;
+        margin-top: 27%; */
+       border-radius:25px;
+        background: transparent;
+        position: relative;  
+        -webkit-animation-iteration-count: 2; 
+        /* animation: ani_about 4s;
+        animation-iteration-count: infinite;    */
+  }
+  #loading {
+    -webkit-animation: ani_about 2s infinite linear;
+    animation: ani_about 2s infinite linear;
+    border-radius: 100%
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+/* bg image css */
+.bg_icore_logo_about_phone{
+    /* background-image: url(""); */
+    background-repeat: no-repeat;
+}
+.mgt_69per{
+    margin-top: 3%;
+}
+@media (min-width: 280px) and (max-width: 767px) {
+    .mrg_bt_headto_cont{
+        margin-bottom: 28%;
+    }
+    .icn_about_phone{
+        /* position: relative;
+        top: -253px;
+        display: block;
+        margin: 0px auto;
+        margin-left: 38%; */
+        display: none
+    }
+    .icn_about_phone_right{
+           /* position: relative; */
+    top: 88px;
+    display: none;
+    /* left: -18px; */
+    right: -48px;
+    }
+    .mrg_btm_mobile{
+        
+    margin-bottom: 54px;
+    }
+    .fnt_mob{
+        font-size: 15px
+    }
+    .txt_left_about_phone{
+        padding: 10px 0px 0 0;
+        text-align: justify;
+        height: auto;
+        margin-top: 10%;
+    }
+    .txt_left_about_phone_right {
+        padding: 10px 0px 0 0;
+        text-align: justify;
+        height: auto;
+    }
+    .icn_about_phone_right {
+        /* position: absolute;
+        margin-top: -9%;
+        /* left: -18px; */
+        /* right: 39%; */
+        /* margin-left: 26%; */
+        /* display: block; */
+        /* margin: 0px auto; */
+        /* margin: -23% 0% 0% 0%;  */
+        display: none;
+    }
+    /* .mb_bot_all_about{
+         margin-bottom: 17%; 
+    } */
+    .mb_bot_img_about{
+        margin-bottom: 35%;
+    }
+    .pad_3per_recre{
+        padding: 0%!important;
+    }
+    .about_phone_ptag{
+        text-align: left;
+    }
+    .p_tag_new_about{
+        text-align: left;
+    }
+  }
+  /* media mobile */
+
+  @media (min-width: 1025px) {
+  
+    .disable_web_media_about{
+        display: none
+    }
+    
+  }
+  @media (min-width: 280px) and (max-width: 1024px) {
+    .disable_mobile_media_about{
+        display: none
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1300px) {
+    /* .txt_left_about_phone{
+        overflow: auto
+    }
+    .txt_left_about_phone_right{
+        overflow: auto
+    } */
+    /* scroll bar css */
+    .scrollbar_two
+    {
+	width: 100%;
+	/* overflow-y: scroll; */
+	
+    }
+    .force-overflow
+    {
+	min-height: 200px;
+    }
+    #style-4::-webkit-scrollbar-track
+    {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+        }
+        #style-4::-webkit-scrollbar
+        {
+            width: 5px;
+            background-color: #F5F5F5;
+        }
+        #style-4::-webkit-scrollbar-thumb
+        {
+            background-color: #555555;
+            /* border: 2px solid #555555; */
+        }
+        }
+  /* media for tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .force-overflow{
+        min-height: auto;
+    }
+    .icn_about_phone{
+        position: relative;
+        top: -162px;
+        display: block;
+        margin: 0px auto;
+        margin-left: 46%;
+        display: none
+    }
+    .icn_about_phone_right{
+    top:-32px;
+    right: -48px;
+    display: none!important;
+    }
+    .about_phone_headtag{
+        font-size: 13px
+    }
+    .mrg_btm_mobile{
+    margin-bottom: 54px;
+    }
+    .fnt_mob{
+        font-size: 15px
+    }
+    .txt_left_about_phone{
+        padding: 0px 0px 0 0;
+        text-align: center;
+        height: auto;
+    }
+    .txt_left_about_phone_right {
+        padding: 0px 0px 0 0;
+        text-align: center;
+        height: auto;  
+    }
+    .mt_mobile_tab{
+        margin-top: 11%;
+    }
+    .icn_about_phone_right {
+        position: absolute;
+        margin-top: 3%;
+        /* left: -18px; */
+        right: 47%;
+        margin-left: 26%;
+        display: block;
+        /* margin: 0px auto; */
+        margin: 1% 0% 0% 0%;
+    }
+    .mb_bot_all_about{
+        margin-bottom: 6%;
+    }
+    .mb_bot_img_about{
+        margin-bottom: 35%;
+    }
+    .mt_top_rotating_img{
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+      }
+
+.makerow{
+        display: flex;
+      }
+      .phone_img_about{
+        width: 20%!important;
+        margin-top: -40%;
+      }
+      .mgt_69per{
+          height: 320px;
+      }
+  }
+  /* recreate css website */
+  .pad_3per_recre{
+      padding: 0px 4%
+  }
+  .mt_top_rotating_img{
+      margin-top: -1%;
+  }
+  .wid_circle_img{
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+  }
+  .mrg_t2per_rechan{
+      margin-top: 2%;
+  }

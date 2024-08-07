@@ -1,0 +1,140 @@
+
+    /* .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    } */
+
+
+
+    /* extra videos */
+    .laptop-wrapper_new_IE {
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 67.5%;
+        height: 0;
+    }
+    .laptop-wrapper_new_IE video {
+        box-sizing: border-box;
+        background: url(./img_new/laptop_new.png) center center no-repeat;
+        background-size: contain;
+        padding: 11.9% 15.5% 14.8%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* 2nd example :  BACKGROUND IMAGE */
+    .desktop-wrapper_new_IE {
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 67.5%;
+        height: 0;
+    }
+    .desktop-wrapper_new_IE video {
+        box-sizing: border-box;
+        background: url(./img_new/computer_desktop.png) center center no-repeat;
+        background-size: contain;
+        padding: 1.4% 13.8% 26.6%;/* 11.9% 15.5% 14.8% */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* 3rd example :  BACKGROUND IMAGE */
+    .tablet-wrapper_new_IE {
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 67.5%;
+        height: 0;
+    }
+    .tablet-wrapper_new_IE video {
+        box-sizing: border-box;
+        background: url(./img_new/tablet_new.png) center center no-repeat;
+        background-size: contain;
+        padding: 13.9% 13% 13.5% 9.8%;/* 11.9% 15.5% 14.8% */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* 4rd example :  BACKGROUND IMAGE */
+    .mobile-wrapper_new_IE {
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 67.5%;
+        height: 0;
+    }
+    .mobile-wrapper_new_IE video {
+        box-sizing: border-box;
+        background: url(./img_new/mobile_new.png) center center no-repeat;
+        background-size: contain;
+        padding:6.1% 33.9% 7%;/* 11.9% 15.5% 14.8% */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* mobile copy */
+    /* #functions {
+        display: inline-block;
+        margin-top:30px;
+      }
+      
+      #functions ul {
+          list-style:none;
+      }
+      
+      .func_desc{
+        float:left;
+      }
+      
+      i{
+        padding: 10px;
+      } */
+      
+      
+      #MSvideoContainer {
+        width: 50%;
+        height: 806px;
+        margin-left: 50px;
+        display: inline-block;
+        
+        background: url("http://www.makrshakr.com/wp-content/uploads/2016/03/iphone.png") center center no-repeat;
+      background-size:cover;
+      }
+      
+      #MSvideoContent {
+        padding-top: 139px;
+        text-align:center;
+        overflow:hidden;
+      }
+      
+      /* .active, #functions li .small_title:hover {
+          color: #e2038b;
+          cursor:pointer;
+      } */
+      
+      .function_desc{
+        display:inline-block;
+        float:left;
+        color: black;
+      }
+      .img_phone{
+        width: 79%;
+    
+      }

@@ -1,0 +1,252 @@
+.banner_img{
+    padding: 5px 35px 0px 35px;
+}
+.aft_banner_heading{
+    margin-top: 0;
+    margin-bottom: 2%;
+    color: #ff9905;
+    /* font-family: 'Gotham-Bold'; */
+    font-size: 18px!important;
+    line-height: normal;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+}
+.aft_banner_heading:before {
+    display: block;
+    clear: both;
+    content: '';
+}
+.aft_banner_heading:after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 4px;
+    background: #1f1f1f;
+    width: 50%;
+    bottom: -13px;
+    left: 0;
+    transition: all 0.4s cubic-bezier(.5,.21,.59,.87) 0s;
+    -webkit-transition: all 0.4s cubic-bezier(.5,.21,.59,.87) 0s;
+}
+.aft_heading_para{
+    padding: 0;
+    margin-bottom: 1%;
+    color: #666666;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: normal;
+}
+.aft_para_h2{
+    margin-top: 0;
+    /* margin-bottom: 25px; */
+    color: #ff9905;
+    /* font-family: 'Gotham-Bold'; */
+    font-size: 18px!important;
+    line-height: normal;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+/* .custom_ul> .custom_li {
+    display: block;
+    list-style: none;
+    background-image: url(https://www.k2bindia.com/wp-content/themes/k2bindiaresponsive/images/list-right-arrow.png);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    margin: 2px 0px;
+    background-position: 0px 10px;
+    
+} */
+
+.custom_ul_service{
+    margin: 0;
+    border: 0 none;
+    padding: 35px!important;
+}
+.custom_li_service{
+    background: none!important;
+    padding: 25px 0px 25px 0px!important;
+    list-style: none;
+    position: relative;
+    display: block;
+    padding: 11px 11px 11px 11px;
+    border-bottom: 1px solid #dfdfdf;
+    background: rgb(255,255,255);
+    display: flex;
+}
+.custom_icon_service{
+    display: table-cell;
+    float: none;
+    top: 0;
+    vertical-align: middle;
+    width: 45px;
+}
+.custom_img_service{
+    display: inline-block;
+    vertical-align: middle;
+}
+.custom_border_service{
+    max-width: 430px;
+    padding: 0;
+    /* width: 35%; */
+    background: #f4f4f4;
+    border: 1px solid #e3e3e3;
+    height: 420px;
+}
+.overall_service{
+    padding: 35px;
+}
+.custom_ul_service li a {
+    font-size: 14px;
+    line-height: inherit;
+    font-weight: 700;
+    padding-left: 18px;
+    display: block;
+    position: relative;
+    color: #7a848e;
+}
+/* media query */
+@media  (min-width:200px) and (max-width:767px){
+    .banner_img{
+        padding:4%;
+    }
+    .overall_service{
+        padding: 4%
+    }
+}
+.ourservicemorecontant{
+    background-image: url(../img_new/videos/newdesign/web_drop_bg.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.mobile_app_bg_drop{
+    background-image: url(../img_new/videos/mobile-apps.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.uiux_app_bg_drop{
+    background-image: url(../img_new/videos/newdesign/ui_ux.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.digital_app_bg_drop{
+    background-image: url(../img_new/videos/newdesign/digital_mark_bg.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.webaus_app_bg_drop{
+    background-image: url(../img_new/videos/newdesign/web_aus_bg.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.mobileaus_app_bg_drop{
+    background-image: url(../img_new/videos/newdesign/mobile_aus.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.aft_heading_para >p{
+    font-size: 14px;
+    margin: 1%;
+}
+.aft_heading_para >h3{
+    margin: 1%;
+}
+.aft_heading_para >h6{
+    margin: 1%;
+    padding: 0 10%;
+    font-size: 14px;
+}
+.face{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+    .ourservicemorecontant{
+      width: 100%;
+      margin-top: 20%;
+      height: 25vh;
+      min-height: 25vh;
+    }
+    .mobile_app_bg_drop{
+        width: 100%;
+        margin-top: 20%;
+        height: 25vh;
+        min-height: 25vh;
+      }
+      .uiux_app_bg_drop{
+        width: 100%;
+        margin-top: 20%;
+        height: 25vh;
+        min-height: 25vh;
+      }
+      .digital_app_bg_drop{
+        width: 100%;
+        margin-top: 20%;
+        height: 25vh;
+        min-height: 25vh;
+      }
+      .webaus_app_bg_drop{
+        width: 100%;
+        margin-top: 20%;
+        height: 25vh;
+        min-height: 25vh;
+      }
+      .mobileaus_app_bg_drop{
+        width: 100%;
+        margin-top: 20%;
+        height: 25vh;
+        min-height: 25vh;
+      }
+      .aft_heading_para{
+        margin-bottom: 4%;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .ourservicemorecontant{
+      margin-top: 4%;
+      min-height: 33vh;  
+    }
+    .mobile_app_bg_drop{
+        margin-top: 4%;
+        min-height: 33vh;  
+      }
+      .uiux_app_bg_drop{
+        margin-top: 4%;
+        min-height: 33vh;  
+      }
+      .digital_app_bg_drop{
+        margin-top: 4%;
+        min-height: 33vh;  
+      }
+      .webaus_app_bg_drop{
+        margin-top: 4%;
+        min-height: 33vh;  
+      }
+      .mobileaus_app_bg_drop{
+        margin-top: 4%;
+        min-height: 33vh;  
+      }
+     
+  }

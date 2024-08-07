@@ -1,0 +1,284 @@
+/* our-service-ecommerce.css */
+.our_ecommerce_head_inner_service{
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    /* margin-bottom: 7%; */
+   
+  }
+  .mt_our_ecommerce_head_inner_service{
+    margin-top: -17%;
+    margin-bottom: 17%;
+  }
+  .our_ecommerce_head_inner_service:after{
+    content: "";
+    position: absolute;
+    width: 23%;
+    height: 2px;
+    background: #0b69af;
+    bottom: -15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .img_ecom_inner1{
+    width: 60%;
+    margin-bottom: 10%;
+  }
+  .mrg_img_rotate_top{
+    margin-top: -11%;
+  }
+  /* animation */
+  
+.path {
+  position: relative;
+  overflow: hidden;
+  /* width: 800px;
+  height: 80px; */
+  /* background-color: #c1c1c1; */
+  margin: auto;
+}
+.shape {
+  width: 25%;
+  height: 25%;
+  /* background: red; */
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+
+}
+.main_ecom_bg{
+  width: 100%;
+  margin-bottom: 6%;
+}
+.total_div_top_augment{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.hgt_empty_space_ecomm{
+  height: 180px;
+}
+.hgt_empty_space_ecomm2{
+  height: 155px;
+}
+.card_extra_ptag_inner2_ecommerce_inner{
+  
+  display: inline;
+  padding-left: 3%;
+  font-size: 15px;
+  color: #0a0a0ac7;
+  font-weight: 700;
+  
+}
+.main_ecom_bg {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+   
+}
+.main_ecom_bg:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          
+}
+
+@-webkit-keyframes mymove {
+  from {right: -100px;}
+  to {right: 200px;}
+}
+
+@keyframes mymove {
+  from {right: -100px;}
+  to {right: 200px;}
+}
+.bg_ecom_full1{
+  background-color: #908a8aa6;
+}
+
+.ecomerce_ptag_inner1{
+  padding:8px 3%;
+  font-size: 14px;
+  padding-left:3%;
+  padding-right:5%;
+  text-align: justify;
+
+
+}
+.car_bg_ecomm1{
+  width: 50%;
+  position: absolute
+}
+/* move animations */
+@keyframes slide {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  50% {
+    right: 244px;
+    /* top: 100px; */
+  }
+  100% {
+    right: 488px;
+    top: 0;
+  }
+}
+.stage {
+  /* background: #eaeaed; */
+  height: 350px;
+  position: relative;
+  min-width: 680px;
+  margin-top: -45%;
+  margin-left: 36%;
+  z-index: 11;
+}
+.stage:hover .car_bg_ecomm1 {
+  animation: slide 2s linear;
+  animation: slide 5s infinite;
+}
+.dis_only_inner_mob{
+  display: none
+}
+@media (min-width:280px) and (max-width:1024px){
+  .dis_only_inner_mob{
+    display: block
+  }
+  .dis_only_inner_web{
+    display: none
+  }
+  .our_ecommerce_head_inner_service{
+    margin-bottom:17%;
+  }
+}
+
+/* extra web */
+
+/* #circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.8; 
+}
+#circle-shape-example .curve { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+} */
+
+.img_text1{
+  width: 36%; 
+  height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+.alignleft {
+  float: left;
+  text-align:left;
+  width:33.33333%;
+  padding: 3%;
+  margin-top: 7%;
+  font-size: 18px;
+  /* padding-left:5%;
+  padding-right:5%; */
+  text-align: justify;
+}
+.aligncenter {
+  float: left;
+  text-align:center;
+  /* width:33.33333%; */
+}
+.alignright {
+  float: left;
+  text-align:right;
+  width:33.33333%;
+  
+}
+.txt_align_extra{
+  padding: 3%;
+  font-size: 18px;
+  padding-left:5%;
+  padding-right:5%;
+  text-align: justify;
+  /* margin-bottom: 3%; */
+ 
+}
+.txt_align_extra1{
+  padding: 3%;
+  font-size: 16px;
+  padding-left:5%;
+  padding-right:5%;
+  text-align: justify;
+  /* margin-top: 7%; */
+}
+.card_extra_ptag_inner_ecommer2{
+  /* display: inline; */
+  padding-left: 10%;
+  font-size: 14px;
+  /* color: #0a0a0ac7; */
+  font-weight: 700;
+  line-height: 3;
+  margin-left: 15%;
+}
+.bor_new_ecom{
+  border: 1px solid #ddd;
+  padding: 1%;
+  border-radius: 6px;
+  margin:1% 5%;
+  box-shadow: 0px 3px 13px 2px #c7c7c7;
+  width: 70%;
+  margin-left: 16%;
+  
+}
+.tic_ivcon_img_ecomm{
+  width: 4%;
+ 
+}
+.mrg_bot_ecom_last1{
+  margin-bottom: 5%;
+}
+.rotate_new:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          
+}
+.rotate_new{
+border-radius: 50%;
+-webkit-transition: -webkit-transform .8s ease-in-out;
+        transition:         transform .8s ease-in-out;
+}
+
+/* media query */
+@media (min-width:280px) and (max-width:767px){
+  .our_ecommerce_head_inner_service{
+      font-size: 30px
+  }
+  .ecomerce_ptag_inner1{
+    margin-bottom: 14%;
+    margin-top: 8%;
+  }
+  .main_ecom_bg{
+    margin-bottom: 12%!important;
+    margin-top: 12%!important;
+  }
+}
+.mrg_agument_bot_last{
+  margin-bottom: 3%;
+}
+
+/* web recreate css */
+.row_adjust_mt{
+  margin-top: -10%;
+}
+.dis_none_ecommer_box{
+  display: none
+}

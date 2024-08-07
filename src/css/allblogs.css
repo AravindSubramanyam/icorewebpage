@@ -1,0 +1,183 @@
+/*--------Blogs-Contentssss---------------*/
+
+.blogs_p{
+	padding: 1%;
+	padding-top: 1px;
+    font-size: 14px;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    text-align: justify;
+}
+.head{
+	    padding-top: 14%;
+	    text-align: center;
+}
+
+.blog_txth3{
+    color: #919191;
+    text-transform: uppercase;
+    font-size: 39px;
+    /*padding: 3% 0% 3% 0%;*/ 
+    font-weight: 150;
+    word-break: break-all;
+    /*line-height: 56px;
+      font-size: 30px!important;
+      padding: 3% 0% 3% 0%; */
+  }
+.blog_txt_title{
+   color: #919191;
+    text-transform: uppercase;
+    font-size: 39px !important;
+    font-weight: 150;
+    word-break: break-all;
+}
+
+.head_blogs{
+  padding: 0 1%
+}
+.all_liststyletype{
+      list-style-type: square;
+    padding: 0 1%;
+    list-style: inside;
+
+}
+.custom_paddinglist{
+  padding: 0 15px!important
+}
+.word_breakblog{
+      word-break: break-word;
+}
+.chatimg{
+  height: 80%;
+  width: 80%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.hacking_blog_side_img{
+  height: 21%;
+  width: 66%;
+  /* margin-bottom: 10px;
+  margin-left: 20px; */
+  margin: 0px auto;
+  display: block;
+}
+
+.blogs_h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+.blogs13_h2{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 11px;
+}
+.updating_link{
+  color: blue;
+}
+  /*---------------------
+  /* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+  	.blog_txth3 {
+    padding-top: 40%;
+    color: #919191;
+    text-transform: uppercase;
+    font-size: 26px;
+    /* padding: 3% 0% 3% 0%; */
+    font-weight: 150;
+    word-break: initial;
+    /* text-align: justify; */
+}
+.blog_txt_title{
+    padding-top: 40%;
+    color: #919191;
+    text-transform: uppercase;
+    font-size: 26px !important;
+    font-weight: 150;
+    word-break: initial;
+}
+.head_blogs{
+	font-size: 17px;
+    line-height: inherit;
+}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+	.blog_txth3 {
+    padding-top: 43%;
+    color: #919191;
+    text-transform: uppercase;
+    font-size: 26px;
+    /* padding: 3% 0% 3% 0%; */
+    font-weight: 150;
+    word-break: initial;
+    /* text-align: justify;*/
+    }
+  .blog_txt_title{
+    padding-top: 43%;
+    color: #919191;
+    text-transform: uppercase;
+    font-size: 26px !important;
+    font-weight: 150;
+    word-break: initial;
+  }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+.blog_txth3 {
+    padding-top: 50%;
+    color: #919191;
+    text-transform: uppercase;
+    font-size: 28px !important;
+    /* padding: 3% 0% 3% 0%; */
+    font-weight: 150;
+    word-break: break-word;
+}
+.blog_txth1{
+  /* padding-top: 50%; */
+    color: #919191;
+    text-transform: uppercase;
+    font-size: 28px;
+    /* padding: 3% 0% 3% 0%; */
+    font-weight: 150;
+    word-break: break-word;
+}
+.blogs_p {
+    padding: 1%;
+    padding-top: 1px;
+    font-size: 14px;
+    /* padding-left: 5%; */
+    padding-right: 5%;
+    text-align: justify;
+}
+.blogs_h5{
+	font-size: 19px;
+    font-weight: 400;
+    line-height: normal;
+}
+.head_blogs{
+	 font-size: 17px;
+}
+}

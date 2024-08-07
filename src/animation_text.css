@@ -1,0 +1,26 @@
+.ml9_new {
+    position: relative;
+    font-weight: 200;
+    font-size: 3em;
+    color: #fff;
+  }
+  .ml9_new .text-wrapper_new_animations {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  .ml9_new .letter_animations {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+  @media (min-width: 280px) and (max-width: 767px) {
+    .ml9_new{
+      font-size:19px;
+    }
+  }
+  
+ 

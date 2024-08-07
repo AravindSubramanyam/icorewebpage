@@ -1,0 +1,273 @@
+/* our_work.css */
+#rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color:#fff;
+}
+#rig li {
+    display: inline-block;
+    display:inline ;
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+    height: 468px;
+    object-fit:cover;
+    
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    /* background: #3DC0F1 url() no-repeat center 20%; */
+    /* background: rgba(14,180,147,.9); ; */
+    background: #1a651a;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+    transform: rotateY(180deg) scale(0.5,0.5);
+
+}
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+    transform: rotateY(0deg) scale(1,1);
+   
+
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:25%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+/* custom */
+.text_full_our{
+    width: 100%;
+    height: 468px;
+    background-color: #1a75ff;
+    color: #fff
+}
+.text_full_our h2{
+    color: #fff;
+    /* margin-top:50px  */
+}
+.mt_109px{
+    margin-top: 29%;
+}
+.mt_23px{
+    margin-top: 9%;
+}
+
+/* arrow btn */
+
+  .button_arrow_work {
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 20px;
+    border:none;
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    display: block;
+    margin: 0px auto;
+  }
+  
+  .button_arrow_work span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button_arrow_work span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button_arrow_work:hover span {
+    padding-right: 25px;
+  }
+  
+  .button_arrow_work:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .txt_hvr{
+      font-size:30px;
+      margin-top: -30%;
+  }
+  /* .mt_top_hvr_txt1{
+      margin-top: -14%;
+  }
+  .mt_top_hvr_txt2{
+    margin-top: -2%;
+}
+.mt_top_hvr_txt3{
+    margin-top: 10%;
+}.mt_top_hvr_txt4{
+    margin-top: 20%;
+}.mt_top_hvr_txt5{
+    margin-top: 31%;
+} */
+
+/* table */
+.align_work{
+    display: table-cell;
+    vertical-align: middle;
+}
+.ul_work_table{
+    display: block;
+    list-style-type: none;
+    float: left;
+    text-align: left;
+}
+.li_work_table{
+    margin-bottom: 3px;
+    font-size: 0.6em;
+    color: #fff;
+    margin-top: 8%;
+}
+
+/* for arrow */
+@-webkit-keyframes arrow-jump {
+    0%   { opacity: 0;}
+    100% { opacity: 1; 
+          -webkit-transform: translateY(10px);
+          -moz-transform: translateY(10px);
+          
+          transform: translateY(10px);
+      }
+    
+  }
+  #arrow_our_work {
+    -webkit-animation: arrow-jump 1s infinite; /* Safari 4+ */
+    -moz-animation:    arrow-jump 1s infinite; /* Fx 5+ */
+    -o-animation:      arrow-jump 1s infinite; /* Opera 12+ */
+    animation:         arrow-jump 1s infinite; /* IE 10+, Fx 29+ */
+    width: 55px;
+    height: 45px;
+    display: block;
+    margin: 0px auto
+  }
+  /* media query */
+  @media screen and (max-width: 767px){
+    
+    .rig-img{
+        height: 270px!important;
+    }
+    .text_full_our h2{
+        margin-top: 14px;
+        font-size: 20px;
+    }
+    .text_full_our{
+        height: 270px!important;
+    }
+    .button_arrow_work:hover span{
+        padding-right: 13px;
+    }
+    .txt_hvr{
+       font-size: 16px!important;
+       margin-top: -39%!important;
+    }
+    .portfolio_nav_btn{
+        display: block!important
+    }
+    .aboveborder{
+        width: 100%!important;
+        border-radius: 18px!important
+    }
+   }
+    @media (min-width:280px) and (max-width: 361px) {
+   
+    .mob_fnt{
+        font-size: 9px!important
+    }
+    .txt_hvr{
+       font-size: 13px!important;
+       margin-top: -39%!important;
+    }
+    }
+
+  /* newly added 08-11-2019 */
